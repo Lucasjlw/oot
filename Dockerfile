@@ -14,7 +14,8 @@ RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone &
         unzip \
         clang-tidy \
         clang-format \
-        libpng-dev && \
+        libpng-dev \
+        gcc-mips-linux-gnu && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 

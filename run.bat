@@ -1,0 +1,1 @@
+docker run -it --rm --mount type=bind,source="%cd%",destination=/oot oot /bin/bash
